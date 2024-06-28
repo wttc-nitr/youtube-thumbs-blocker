@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "yt-thumbs-blocker",
+    "version": "1.0.0",
+    "description": "extension to block thumbnails on yt for a distraction free browsing & hence improve bandwidth",
+    "content_scripts": [
+        {
+            "js": [
+                "content-script.js"
+            ],
+            "matches": [
+                "http://www.youtube.com/*",
+                "https://www.youtube.com/*"
+            ]
+        }
+    ],
+    "declarative_net_request" : {
+      "rule_resources" : [{
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+    },
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestFeedback"
+    ]
+}
+
