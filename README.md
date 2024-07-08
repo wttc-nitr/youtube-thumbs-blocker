@@ -1,6 +1,6 @@
 ## YouTube Thumbnail Blocker
 
-a browser extension for blocking youtube thumbnails for a distraction-free browsing.
+a browser extension for blocking youtube thumbnails & shorts(in feed & in search results) for a distraction-free browsing.
 
 ## Setting-up the project
 
@@ -8,4 +8,4 @@ a browser extension for blocking youtube thumbnails for a distraction-free brows
 
 -   Clone the forked repo locally.
 
--   Follow this [link](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) to load extension in chrome.
+-   Follow this [link](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) to load the extension in chrome.
