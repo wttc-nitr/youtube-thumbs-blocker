@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "yt-thumbs-blocker",
+    "name": "yt-thumbs-&-shorts-blocker",
     "version": "1.0.0",
     "description": "extension to block thumbnails on yt for a distraction free browsing & hence improve bandwidth",
     "content_scripts": [
