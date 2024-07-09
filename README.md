@@ -1,6 +1,7 @@
 ## YouTube Thumbnail & Shorts Blocker
 
 a browser extension for blocking youtube thumbnails & shorts(in feed & in search results) for a distraction-free browsing.
+It blocks the network requests associated with images & thus improves bandwidth.
 
 ## Setting-up the project
 

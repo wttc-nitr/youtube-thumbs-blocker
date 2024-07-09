@@ -1,16 +1,6 @@
 console.log("hi from trial-ext");
 
-let i = 0;
-
 function _hide() {
-    // document.querySelectorAll("a#thumbnail").forEach((x) => {
-    //     // x.children[0].style.display = "none";
-    //     if (i === 0) {
-    //         console.log(x.children);
-    //         i++;
-    //     }
-    // });
-
     document
         .querySelectorAll("#content > ytd-rich-shelf-renderer")
         .forEach((x) => {
